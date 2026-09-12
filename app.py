@@ -25,7 +25,20 @@ with col1:
 with col2:
     prodi = st.selectbox(
         "Program Studi", 
-        ["Sistem Informasi", "Manajemen", "Ilmu Komunikasi", "Akuntansi", "Lainnya"]
+        [
+            "Sistem Informasi", 
+            "Sains Data",
+            "Manajemen", 
+            "Akuntansi", 
+            "Ilmu Komunikasi", 
+            "Hukum", 
+            "Administrasi Negara", 
+            "PGSD", 
+            "Ekonomi Pembangunan", 
+            "Teknologi Pangan", 
+            "Matematika",
+            "Lainnya..."
+        ]
     )
     tutor = st.text_input("Nama Tutor/Dosen")
 
